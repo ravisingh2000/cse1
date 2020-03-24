@@ -22,7 +22,7 @@ scanf("%d" ,&time_quantum);
 printf("The number of processes are set to: %d\nThe time quantum is set to:%d\n" , n,time_quantum);
 int at[10],bt[10],rt[10],pq[10],pty[10],pty1[10],pflag[10],tat[10],wt[10];
   for(j=0;j<n;j++)
-    {
+   {
         pq[j] = 0;
         pflag[j] = 0;
     }
